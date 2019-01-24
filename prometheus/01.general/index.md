@@ -1,0 +1,6 @@
+- kubernetes prometheus addon
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/prometheus
+- giantswarm/kubernetes-prometheus
+    - https://github.com/giantswarm/kubernetes-prometheus
+    - https://jimmysong.io/kubernetes-handbook/practice/using-prometheus-to-monitor-kuberentes-cluster.html
+    - https://github.com/rootsongjc/kubernetes-handbook/tree/master/manifests/prometheus
