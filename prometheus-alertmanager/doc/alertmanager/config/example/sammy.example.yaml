@@ -1,0 +1,21 @@
+global:
+  resolve_timeout: 5m
+  http_config: {}
+  smtp_smarthost: '10.248.68.110:25'
+  smtp_from: 'alertmanager@example.org'
+  smtp_hello: '10.248.68.110:25'
+route:
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 12h
+  receiver: "lianghuang"
+  group_by:
+  - job
+  routes:
+  - receiver: "lianghuang"
+    match:
+      alertname: DeadMansSwitch
+receivers:
+- name: 'lianghuang'
+  email_configs:
+  - to: 'lianghuang@ebay.com'
