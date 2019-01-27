@@ -12,4 +12,5 @@ https://www.kancloud.cn/huyipow/prometheus
 - 第八章 prometheus 基本查询语法
 - 第九章 prometheus alerts 模块部署
 - 第十章 alertmanager 报警规则详解
+    - https://www.kancloud.cn/huyipow/prometheus/527563
 - 第十一章 在k8s部署grafana
