@@ -1,0 +1,5 @@
+ALERT stackname_device_mapper_util_above_80_percent
+  IF (container_fs_usage_bytes{asg="containers",device=~"/dev/mapper/docker.*"} / container_fs_limit_bytes{asg="containers",device=~"/dev/mapper/docker.*"} >= 0.8) and (container_fs_usage_bytes{asg="containers",device=~"/dev/mapper/docker.*"} / container_fs_limit_bytes{asg="containers",device=~"/dev/mapper/docker.*"} < 0.9)
+  FOR 1m
+  LABELS {severity="low"}
+  ANNOTATIONS {description="stackname {{$labels.asg}} ECS docker device mapper usage is above 80%", summary="stackname {{$labels.asg}} docker device mapper space alert"}
