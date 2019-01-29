@@ -1,0 +1,10 @@
+https://stackoverflow.com/questions/44718268/how-to-monitor-disk-usage-of-kubernetes-persistent-volumes
+
+ confirmed that Kubernetes 1.8 expose metrics for prometheus.
+
+kubelet_volume_stats_available_bytes
+kubelet_volume_stats_capacity_bytes
+kubelet_volume_stats_inodes
+kubelet_volume_stats_inodes_free
+kubelet_volume_stats_inodes_used
+kubelet_volume_stats_used_bytes

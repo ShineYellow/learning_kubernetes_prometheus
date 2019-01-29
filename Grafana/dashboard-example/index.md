@@ -1,0 +1,1 @@
+https://github.com/kayrus/prometheus-kubernetes/blob/master/grafana-import-dashboards-configmap/docker-monitoring-dashboard.json

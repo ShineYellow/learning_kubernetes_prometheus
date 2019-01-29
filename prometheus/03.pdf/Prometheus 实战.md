@@ -1,0 +1,105 @@
+
+
+https://songjiayang.gitbooks.io/prometheus/content/promql/sql.html
+https://github.com/songjiayang/prometheus_practice
+
+Prometheus 实战
+
+- 前言
+- 修订记录
+- 如何贡献
+- Prometheus 简介
+    - Prometheus 是什么
+    - 为什么选择 Prometheus
+- Prometheus 安装
+    - 二进制包安装
+    - Docker 安装
+- 基础概念
+    - 数据模型
+    - Metric types
+    - 作业与实例
+- `PromQL`
+    - PromQL 基本使用
+    - 与 SQL 对比
+- 数据可视化
+- Web Console
+- Grafana
+- Prometheus 配置
+    - 全局配置
+    - 告警配置
+    - 规则配置
+    - 数据拉取配置
+    - 远程可写存储
+    - 远程可读存储
+    - 服务发现
+- 配置样例
+- Exporter
+    - 文本格式
+    - Sample Exporter
+    - Node Exporter 安装使用
+    - Node Exporter 常用查询
+    - Node Exporter Grafana 模版
+- 其他 Exporter 介绍
+- Pushgateway
+    - Pushgateway 是什么
+    - 如何使用 Pushgateway?
+    - 数据存储
+    - Local Store
+    - Remote Store
+    - 告警规则
+    - 如何配置
+    - 触发逻辑
+- Alertmanager
+    - Alertmanager 是什么
+    - 配置详情
+    - 通过 Email 接收告警
+    - 通过企业微信接收告警
+    - 通过 Slack 接收告警
+    - 通过 Webhook 接收告警
+    - 其他告警接收方案
+    - 主机监控完整示例
+- NodeExporter
+    - 配置告警规则
+    - Grafana 集成
+    - 通过 Alertmanager 告警
+    - Prometheus 工具
+    - Promu 介绍和使用
+- Client SDK
+- Prometheus 性能调优
+- 通过 Metrics 查看 Prometheus 运行状态
+- 通过日志分析 Prometheus 运行状态
+- 启动参数详解
+    - Prometheus 与容器
+    - Docker
+    - Kubernetes
+- Prometheus 常见服务监控
+    - Nginx
+    - Memcached
+    - MongoDB
+    - MySQL
+- Redis
+- Prometheus 常见应用监控
+    - Spring boot
+    - Rails
+    - Django
+    - Laravel
+    - Phoenix
+    - Prometheus 与 DevOps
+    - 从 0 开发一个 exporter
+- 使用 Webhooks 开发一个 alert receiver
+- 高可用方案探讨
+    - Prometheus Server 的高可靠
+    - AlertManager 的高可靠
+- v2.x 迁移注意
+    - 新功能
+    - 新存储架构
+    - Rule 新配置
+    - 常见问题收录
+    - 如何热加载新配置
+    - 为什么重启 Prometheus 过后，数据无法查询
+    - 如何删除 Pushgateway 的数据
+    - 为什么内存使用这么高
+    - 为什么有数据丢失
+    - 如何通过认证后拉取数据
+    - 监控 JVM
+    - Published with GitBook

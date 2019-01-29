@@ -1,0 +1,190 @@
+
+
+- Databases
+    - Aerospike exporter
+    - ClickHouse exporter
+    - Consul exporter (official)
+    - Couchbase exporter
+    - CouchDB exporter
+    - ElasticSearch exporter
+    - EventStore exporter
+    - Memcached exporter (official)
+    - MongoDB exporter
+    - MSSQL server exporter
+    - MySQL server exporter (official)
+    - OpenTSDB Exporter
+    - Oracle DB Exporter
+    - PgBouncer exporter
+    - PostgreSQL exporter
+    - ProxySQL exporter
+    - RavenDB exporter
+    - Redis exporter
+    - RethinkDB exporter
+    - SQL exporter
+    - Tarantool metric library
+    - Twemproxy
+- Hardware related
+    - apcupsd exporter
+    - Collins exporter
+    - IBM Z HMC exporter
+    - IoT Edison exporter
+    - IPMI exporter
+    - knxd exporter
+    - Netgear Cable Modem Exporter
+    - Node/system metrics exporter (official)
+    - NVIDIA GPU exporter
+    - ProSAFE exporter
+    - Ubiquiti UniFi exporter
+- Messaging systems
+    - Beanstalkd exporter
+    - Gearman exporter
+    - Kafka exporter
+    - NATS exporter
+    - NSQ exporter
+    - Mirth Connect exporter
+    - MQTT blackbox exporter
+    - RabbitMQ exporter
+    - RabbitMQ Management Plugin exporter
+- Storage
+    - Ceph exporter
+    - Ceph RADOSGW exporter
+    - Gluster exporter
+    - Hadoop HDFS FSImage exporter
+    - Lustre exporter
+    - ScaleIO exporter
+- HTTP
+    - Apache exporter
+    - HAProxy exporter (official)
+    - Nginx metric library
+    - Nginx VTS exporter
+    - Passenger exporter
+    - Squid exporter
+    - Tinyproxy exporter
+    - Varnish exporter
+    - WebDriver exporter
+- APIs
+    - AWS ECS exporter
+    - AWS Health exporter
+    - AWS SQS exporter
+    - Cloudflare exporter
+    - DigitalOcean exporter
+    - Docker Cloud exporter
+    - Docker Hub exporter
+    - GitHub exporter
+    - InstaClustr exporter
+    - Mozilla Observatory exporter
+    - OpenWeatherMap exporter
+    - Pagespeed exporter
+    - Rancher exporter
+    - Speedtest exporter
+- Logging
+    - Fluentd exporter
+    - Google's mtail log data extractor
+    - Grok exporter
+- Other monitoring systems
+    - Akamai Cloudmonitor exporter
+    - Alibaba Cloudmonitor exporter
+    - AWS CloudWatch exporter (official)
+    - Cloud Foundry Firehose exporter
+    - Collectd exporter (official)
+    - Google Stackdriver exporter
+    - Graphite exporter (official)
+    - Heka dashboard exporter
+    - Heka exporter
+    - InfluxDB exporter (official)
+    - JavaMelody exporter
+    - JMX exporter (official)
+    - Munin exporter
+    - Nagios / Naemon exporter
+    - New Relic exporter
+    - NRPE exporter
+    - Osquery exporter
+    - OTC CloudEye exporter
+    - Pingdom exporter
+    - scollector exporter
+    - Sensu exporter
+    - SNMP exporter (official)
+    - StatsD exporter (official)
+- Miscellaneous
+    - ACT Fibernet Exporter
+    - Bamboo exporter
+    - BIG-IP exporter
+    - BIND exporter
+    - Bitbucket exporter
+    - Blackbox exporter (official)
+    - BOSH exporter
+    - cAdvisor
+    - Cachet exporter
+    - ccache exporter
+    - Confluence exporter
+    - Dovecot exporter
+    - eBPF exporter
+    - Ethereum Client exporter
+    - Jenkins exporter
+    - JIRA exporter
+    - Kannel exporter
+    - Kemp LoadBalancer exporter
+    - Kibana Exporter
+    - kube-state-metrics
+    - Meteor JS web framework exporter
+    - Minecraft exporter module
+    - OpenStack exporter
+    - PHP-FPM exporter
+    - PowerDNS exporter
+    - Presto exporter
+    - Process exporter
+    - rTorrent exporter
+    - SABnzbd exporter
+    - Script exporter
+    - Shield exporter
+    - SMTP/Maildir MDA blackbox prober
+    - SoftEther exporter
+    - Transmission exporter
+    - Unbound exporter
+    - Xen exporter
+
+## Software exposing Prometheus metrics
+
+Some third-party software exposes metrics in the Prometheus format, so no separate exporters are needed:
+
+- App Connect Enterprise
+- Ballerina
+- Ceph
+- Collectd
+- Concourse
+- CRG Roller Derby Scoreboard (direct)
+- Docker Daemon
+- Doorman (direct)
+- Etcd (direct)
+- Flink
+- FreeBSD Kernel
+- Grafana
+- JavaMelody
+- Kubernetes (direct)
+- Linkerd
+- mgmt
+- MidoNet
+- midonet-kubernetes (direct)
+- Minio
+- Netdata
+- Pretix
+- Quobyte (direct)
+- RobustIRC
+- ScyllaDB
+- Skipper
+- SkyDNS (direct)
+- Telegraf
+- Traefik
+- Weave Flux
+
+Other third-party utilities
+
+- Clojure: prometheus-clj
+- Go: go-metrics instrumentation library
+- Go: gokit
+- Go: prombolt
+- Java/JVM: EclipseLink metrics collector
+- Java/JVM: Hystrix metrics publisher
+- Java/JVM: Jersey metrics collector
+- Python-Django: django-prometheus
+- Node.js: swagger-stats
