@@ -1,0 +1,31 @@
+apiVersion: v1
+data:
+  custom.tmpl: |
+    {{ define "slack.my.title" -}}
+        {{- if .CommonAnnotations.summary -}}
+            {{- .CommonAnnotations.summary -}}
+        {{- else -}}
+            {{- with index .Alerts 0 -}}
+                {{- .Annotations.summary -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end }}
+    {{ define "slack.my.text" -}}
+        {{- if .CommonAnnotations.description -}}
+            {{- .CommonAnnotations.description -}}
+        {{- else if .CommonAnnotations.message -}}
+            {{- .CommonAnnotations.message -}}
+        {{- else -}}
+            {{- range $i, $alert := .Alerts }}
+                {{- if .Annotations.description -}}
+                    {{- "\n" -}} {{- .Annotations.description -}}
+                {{- else if .Annotations.message -}}
+                    {{- "\n" -}} {{- .Annotations.message -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end }}
+kind: ConfigMap
+metadata:
+  name: alertmanager-custom-template
+  namespace: monitoring
